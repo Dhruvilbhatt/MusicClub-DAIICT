@@ -1,0 +1,16 @@
+.mb-1{
+    color: red;
+}
+
+.mb-2{
+    color:green;
+}
+
+.list-group-item.list-group-item-action.flex-column.align-items-start{
+    background-color: black;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,139 @@
+.carousel.slide {
+    height: 100vh;
+    min-width: 100%;
+    display: grid;
+    padding-top: 0px;
+    background-size: cover;
+    /* margin-bottom: 85px; */
+  }
+
+  .events-header {
+    background-color: transparent;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .events-header > h1 {
+    font-size: 3.2rem;
+    font-style: italic;
+  }
+
+  .carousel-control-prev {
+    font-size: xx-large;
+    color:white;
+    margin-bottom: 48vh;
+    margin-top: 52vh;
+  }
+
+  .carousel-control-next {
+    font-size: x-large;
+    color:white;
+    margin-bottom: 48vh;
+    margin-top: 52vh;
+  }
+
+  .custom-button {
+    background-color: transparent;
+    font-size: 1.9125rem !important;
+    font-style: italic ;
+    font-weight: 700 !important;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.8s, color 0.8s, border 0.8s, transform 0.8s;
+    position: absolute;
+  }
+
+  .custom-button.perf{
+    color: red;
+    border: solid white;
+    bottom: 55vh;
+    left: 100px;
+  }
+
+  .custom-button.know{
+    color: white !important;
+    border: solid red;
+    bottom: 42vh;
+    left: 100px;
+  }
+
+  .custom-button:hover {
+    text-decoration: none;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .custom-button.perf:hover {
+    background-color: red;
+    color: black;
+    border: solid blue;
+  }
+
+  .custom-button.know:hover {
+    background-color: green;
+    color: black !important;
+    border: solid purple;
+  }
+
+  .button-container {
+    height: 130vh; 
+    width: 100%;
+    margin:0;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0px;
+  }
+
+  .button-container.first {
+    background-image: url("/public/photos/photo_8.jpg");
+  }
+
+  .button-container.second {
+    background-image: url("/public/photos/photo_2.jpg");
+  }
+
+  .button-container.third {
+    background-image: url("/public/photos/photo_4.jpg");
+  }
+
+  .info-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    animation: fadeInAnimation ease 2s;
+    /* animation: fadeOutAnimation ease 2s; */
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  .info-container > h3 {
+      /* background-image: linear-gradient(to bottom, green , yellow, red, blue, orange);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    font-style: italic; */
+
+    color: white;
+    background-color: transparent;
+    font-style: italic;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  /* @keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} */

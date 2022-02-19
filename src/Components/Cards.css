@@ -1,0 +1,77 @@
+.container.cards{
+    background-image: url("/public/photos/photo_9.jpg");
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    margin: 0px;
+    
+    /* height: 40vh; */
+  }
+  
+  /* Create three equal columns that sits next to each other */
+.column.ff {
+    flex: 33.33%;
+    padding: 20px;
+    width: 5vh; 
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+.column.se {
+    flex: 50%;
+    padding: 20px;
+    padding-top: 0px;
+    width: 5vh; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+.card {
+    display: table;
+    margin: 20px;
+    justify-content: center;
+    width: 85%; 
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    opacity: 0.9;
+    transition: transform 0.5s;
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+.card:hover{
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.a:visited {
+  text-decoration: none;
+}
+
+.a:hover{
+  text-decoration: none
+}
+
+.card-text {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .column.se, .column.ff{
+      flex: 100%;
+    }
+  }
